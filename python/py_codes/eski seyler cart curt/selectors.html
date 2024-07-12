@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deneme</title>
+    <style>
+        #header {
+            font-size: 45px;
+            color: red;
+        }
+        
+        #course {
+            background: green;
+        }
+
+        #username {
+            border:3px solid blue;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+        }
+
+        input[type="password"] {
+            padding: 10px;
+        }
+
+        #submitt {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1 id="header">Kurslar</h1>
+        <hr>
+        <div class="course python">
+            <h2 id ="course">Python Kursu</h2>
+            <h3>Kurs içerikleri</h3>
+                <ul>
+                    <li>Python'a giriş</li>
+                    <li>Modül kullanımı</li>
+                    <li>Python ile uygulamalar</li>
+                </ul>
+        </div>
+        <div class="course c">
+            <h2 id = "course">C++ Kursu</h2>
+            <h3>Kurs içerikleri</h3>
+                <ul>
+                    <li>C++'a giriş</li>
+                    <li>Fonksiyon tanımlama</li>
+                    <li>C++ uygulamaları</li>
+                </ul>
+        </div>
+        <div class="course angular">
+            <h2 id = "course">Angular Kursu</h2>
+            <h3>Kurs içerikleri</h3>
+                <ul>
+                    <li>Angular'a giriş</li>
+                    <li>Döngüler</li>
+                    <li>Angular ile projeler</li>
+                </ul>
+        </div>
+        <div class="course javascript">
+            <h2 id = "course">Javascript Kursu</h2>
+            <h3>Kurs içerikleri</h3>
+                <ul>
+                    <li>Javascript'e giriş</li>
+                    <li>Değişkenler</li>
+                    <li>Javascript ve Css</li>
+                </ul>
+        </div>
+
+        <div>
+            <form>
+                Username : <input type="text" name="username" id="username"><br><br>
+                Password : <input type="password" name="password" id="password"><br><br>
+                <input type="submit" value="Login" id="submitt">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
